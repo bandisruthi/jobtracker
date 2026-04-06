@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.form input,
+.form select,
+.form button {
+  margin: 8px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.form button {
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.column {
+  width: 30%;
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card {
+  background: #334155;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  border: none;
+  background: crimson;
+  color: white;
+  cursor: pointer;
+}
+.status {
+  display: inline-block;
+  margin: 5px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.status.applied {
+  background: #3b82f6;
+}
+
+.status.interview {
+  background: #f59e0b;
+}
+
+.status.rejected {
+  background: #ef4444;
+}
